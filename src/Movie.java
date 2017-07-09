@@ -20,6 +20,6 @@ public class Movie {
     }
     @Override
     public String toString() {
-        return String.format("%-26s%-16s", title, category);
+        return String.format("%-36s%-16s", title, category);
     }
 }

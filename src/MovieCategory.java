@@ -5,6 +5,10 @@ import java.util.*;
  */
 public class MovieCategory {
     public static void main(String[] args) {
+        movieCategories();
+    }
+
+    private static void movieCategories() {
         Movie movie1 = new Movie("Star Wars", "sci-fi");
         Movie movie2 = new Movie("Jurassic Park", "sci-fi");
         Movie movie3 = new Movie("Toy Story", "animated");
@@ -50,6 +54,5 @@ public class MovieCategory {
         if (loop.equalsIgnoreCase("n")) {
             System.out.println("Bye!");
         }
-
     }
 }
